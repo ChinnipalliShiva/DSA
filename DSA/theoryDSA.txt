@@ -1,0 +1,63 @@
+ALGO - 
+    it is a set of well defined instr to perform a operation/to solve a problem.
+
+   char of algo - 
+        1.well defined ip and op 
+        2.steps should be clear
+        3.it should be language independent
+
+one problem can se solved in many ways.
+
+---
+
+Time to run algo depends on
+1.prog language
+2.computer that runs the prog
+3.other prog running at same Time
+4.quality of program
+5.no of ip's
+
+
+We evaluate the performance of an algo in terms of inp size.
+1.TC  -  amount of time taken by an algo to run, as a fn of inp size.
+2.SC  -  amount of memory taken by an algo to run, as a fn of inp size.
+
+
+Notations for complexity - 
+we use ASYMPTOTIC Notations
+
+1. big O - worst case complexity (it describes the complexity of an algo using algebric terms.)
+2. omega - best case complexity
+3. theta - average case complexity
+
+
+SC - constant, linear ,log
+
+------------------
+
+Obj, Array - BIG-Obj
+
+OBJ - 
+1.collection of key value pairs. 
+2.insert/remove/access - TC = constant.
+3.search - TC = linear
+4.obj.keys - TC = linear
+5.obj.values - TC = linear
+6.obj.entries - TC = linear
+
+Array - 
+1.ordered collection of values
+2.insert/remove at end - TC = constant.
+3.insert/remove at beginning - TC = linear. (if we remove ele at beginning then the index for all remainig elemnets should be updated.)
+4.access - constant
+5.search - linear
+6.push/pop - constant
+7.shift/unshift/concat/slice/splice - linear
+8.foreach/map/filter/reduce - linear
+
+
+
+--------------
+learn bitwise op
+sq root info for prime
+recursion
